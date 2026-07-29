@@ -1,3 +1,22 @@
+let's actually quickly finish the important roadmap first please. if need be ill skim over or not spend much time on specifics of syntax that arent necessary or are contextually used only (in which case as long as i know about them or how to initially use them i can then go further into learning them for the problem i face) and more time on preppng both the science/engineering libraries used - NumPy, Matplotlib, Pandas, SciPy
+
+New progression path:
+✅ Core Python
+✅ OOP
+✅ Dataclasses
+✅ Enums
+Properties
+Context Managers
+Logging
+Testing (pytest)
+NumPy
+Pandas
+Scientific plotting
+Scientific computing
+Design patterns you'll actually use
+Engineering Project
+
+Old progression path:
 ✅ Core syntax
 ✅ Functions
 ✅ Modules

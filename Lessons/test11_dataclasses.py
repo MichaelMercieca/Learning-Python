@@ -52,38 +52,7 @@ class Telemetry:
         self,
         threshold_c: float = 40.0,
     ) -> bool:
-        return self.battery_temp_c >= threshold_c
-
-
-@dataclass
-class BeamLoad:
-    position_m: float
-    force_n: float
-    direction: str
-
-    def __post_init__(self) -> None:
-        if self.position_m < 0:
-            raise ValueError(
-                "Position cannot be negative."
-            )
-
-        if self.force_n <= 0:
-            raise ValueError(
-                "Force must be a positive magnitude."
-            )
-
-        self.direction = self.direction.lower()
-
-        if self.direction not in ("down", "up"):
-            raise ValueError(
-                "Direction must be 'up' or 'down'."
-            )
-
-    def signed_force(self) -> float:
-        if self.direction == "up":
-            return self.force_n
-
-        return -self.force_n
+        return self.battery_temp_c >= threshold_c  
 
 
 class TelemetryLogger:
