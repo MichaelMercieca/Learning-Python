@@ -1,0 +1,10 @@
+✅ Core syntax
+✅ Functions
+✅ Modules
+✅ Classes & OOP
+✅ File handling (CSV, JSON)
+NumPy
+Matplotlib
+Pandas
+Scientific computing (SciPy)
+Final engineering project
