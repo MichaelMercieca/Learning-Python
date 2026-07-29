@@ -1,0 +1,59 @@
+# ===========================
+# GIT QUICK REFERENCE
+# ===========================
+
+# Initialise a Git repository
+git init
+
+# Check repository status
+git status
+
+# Show commit history
+git log --oneline --graph --all
+
+# Show configured remote(s)
+git remote -v
+
+# Show current branch
+git branch
+
+# Check GitHub for new commits (doesn't change files)
+git fetch
+
+# Download and merge remote changes
+git pull
+
+# Stage all changes (respects .gitignore)
+git add .
+
+# Stage a specific file
+git add filename.py
+
+# Commit staged changes
+git commit -m "Meaningful commit message"
+
+# Push to GitHub
+git push
+
+# First push only (set upstream)
+git push -u origin main
+
+# Configure Git Credential Manager (Windows)
+git config --global credential.helper manager
+
+# Stop tracking a file (keep it on your PC)
+git rm --cached filename
+
+# Stop tracking a folder (keep it on your PC)
+git rm -r --cached foldername
+
+# Refresh tracking to respect an updated .gitignore
+git rm -r --cached .
+git add .
+git commit -m "Refresh repository to respect .gitignore"
+
+# Show the last 5 local commits
+git log main --oneline -5
+
+# Show the last 5 commits on GitHub's main branch
+git log origin/main --oneline -5
