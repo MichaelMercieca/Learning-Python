@@ -7,7 +7,7 @@ New progression path:
 Context Managers
 Logging
 Testing (pytest)
-NumPy
+✅ NumPy
 Pandas
 Scientific plotting
 Scientific computing
