@@ -1,3 +1,6 @@
+Working title:
+Dynamic Performance Analysis of Hydro-Pneumatic Energy Storage
+
 New progression path:
 ✅ Core Python
 ✅ OOP
