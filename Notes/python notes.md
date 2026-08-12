@@ -15,5 +15,6 @@
 - Transition mapping for Enums
 - Use descriptors when many classes genuinely share exactly the same validation behaviour
     - otherwise just use properties for attribute validation 
+- use @parameter when makes sense (ex: for $ R \approx $ 287 J / (kg K) ) 
 
 - use Broadcasting in NumPy
